@@ -6,7 +6,10 @@ html, body {
 .welcome {
 	min-height: 100vh;
 	display: flex;
-	background-color: #444;
+	background: url('./../assets/img/pattern.jpg'), #444;
+	background-blend-mode: overlay;
+	align-items: center;
+	justify-content: center;
 }
 
 .welcome-title {
